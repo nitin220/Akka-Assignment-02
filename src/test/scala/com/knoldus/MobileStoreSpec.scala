@@ -1,3 +1,5 @@
+package com.knoldus
+
 import akka.actor.{ActorSystem, Props}
 import akka.testkit.TestKit
 import org.scalatest.{BeforeAndAfterAll, MustMatchers, WordSpecLike}

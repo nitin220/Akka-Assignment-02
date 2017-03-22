@@ -12,4 +12,5 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1",
   "log4j" % "log4j" % "1.2.17"
 )
-    
+
+coverageExcludedPackages := "com\\.knoldus\\.MobileStore.*"

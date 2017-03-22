@@ -1,4 +1,6 @@
 
+package com.knoldus
+
 import akka.actor._
 import akka.pattern._
 import akka.routing.BalancingPool
@@ -59,7 +61,7 @@ class PurchaseActor extends Actor with ActorLogging {
   }
 }
 
-object MobileStore extends App {
+object MobileStore extends App{
 
 
   val log = Logger.getLogger(this.getClass)
@@ -91,3 +93,6 @@ object MobileStore extends App {
 
 
 }
+
+
+
